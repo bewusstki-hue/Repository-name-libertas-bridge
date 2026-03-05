@@ -1,6 +1,10 @@
-﻿{
+{
   "mesh_auto_sync_interval": 30,
   "log_level": "info",
+  "cloud_provider": "anthropic",
+  "cloud_endpoint": "https://api.anthropic.com/v1/messages",
+  "cloud_model": "claude-haiku-4-5-20251001",
+  "api_key_env": "ANTHROPIC_API_KEY",
   "pii_patterns": {
     "EMAIL": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b",
     "PHONE": "(\\+?49|0)[0-9\\s\\-]{8,}",
